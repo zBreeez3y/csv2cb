@@ -11,7 +11,7 @@ I recommend creating a custom API Access Level in Carbon Black with only 'Create
 4. Update the URL on line 24 to your Carbon Black Cloud instances Cloud URL
 
 ## Use
-1. Create a CSV with the SHA256 hashes in the first column. 
+1. Create a CSV called 'hashes.csv' with the SHA256 hashes in the first column within this scripts PWD
 2. Run the script
 3. Provide API Key, API ID and Org Key (copy/paste)
     
