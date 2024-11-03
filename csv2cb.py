@@ -31,7 +31,7 @@ print("[+] Parsing CSV for hashes.")
 with open("hashes.csv", "r") as f:
     csv = csv.reader(f)
     for i in csv:
-        sha256 = re.findall('[a-z0-9]{64}$', i[1])
+        sha256 = re.findall('[a-z0-9]{64}$', i[0])
         if sha256:
             hashes.append(sha256[0])
 f.close()
